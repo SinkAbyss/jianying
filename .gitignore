@@ -1,0 +1,27 @@
+# Generated files and local configuration
+**/build/
+**/.gradle/
+**/.kotlin/
+**/.idea/
+**/local.properties
+*.iml
+.DS_Store
+Thumbs.db
+node_modules/
+
+# Credentials, signing keys, packages and private test material
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+**/keystore.properties
+*.apk
+*.aab
+/artifacts/
+/design/
+/private-photos/
+/personal-photos/

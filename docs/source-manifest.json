@@ -1,0 +1,888 @@
+{
+  "date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "versionName": "0.1.38",
+  "versionCode": 39,
+  "sourceHead": "fcf741289a8dbf5ef5ffa3fba2371ebc5d62b338",
+  "sourceAndroidDirty": false,
+  "scope": "Android source and tests, build wrapper, public documentation and original geometric example assets; no private Git history",
+  "excluded": [
+    "personal photos",
+    "historical artifacts and device logs",
+    "reference/vendor bundles",
+    "decompiled materials",
+    "local SDK configuration",
+    "signing keys",
+    "APKs"
+  ],
+  "changes": [
+    "replace seven reference assets with original generated geometry",
+    "replace landscape_demo with the attributed Public Domain help photo",
+    "rename sig-d vendor label in exported UserMaterialStore.kt",
+    "normalize public text line endings to LF"
+  ],
+  "sourceFiles": [
+    {
+      "path": "android/.gitignore",
+      "sha256": "3d459d6190d77b4c8c2e4dcaa650556bc0259953eef3abb1dc3a669302888f49"
+    },
+    {
+      "path": "android/app/build.gradle.kts",
+      "sha256": "2efc16c6a3da099bd32a436b3be3806f83e26c3ab21c81ff410986629671132d"
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "sha256": "b3eada8d9bb61c464edb78def1524d95e94ee8873881a87fd98471aa409e4a27"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/ArtRecipeStore.kt",
+      "sha256": "3e94bf805e0fd3fb86b0dcd4986cb82999bedb2544f8bda846e7790dd8c2ca86"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/ArtSignatureRenderer.kt",
+      "sha256": "beebe7113c2c4bb199a3febe3aa63cedf4ae508ef93b9903ddb33c8865f4f741"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/ArtSignatureScreen.kt",
+      "sha256": "b58153f917071fc5e72f2d36c0a144b64976ba04638eab030dc77ad20e9234da"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/BatchSaver.kt",
+      "sha256": "c23fdb2ec9045d65ac5bc4bcfe0f9f318c34b23e6c87b8a5168a43f5accadbfa"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/BlurBackgroundRenderer.kt",
+      "sha256": "b11146bf4960275298f3c471711ac097ad4e44c9f8e8457bfd4c4d6a0bd66830"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/BlurForeground.kt",
+      "sha256": "b11ed565b4f44da14848953c7cba6635465dd3cd49a904f9f6e51cf87410b821"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/BorderBackgroundStyle.kt",
+      "sha256": "71811f694994edc37d4e039acac771975a20d492a0ce18ba6cd6ba9753c1f3be"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/BorderColor.kt",
+      "sha256": "f36d532cf001c6f941ac6b6bcb89e1d0546005ab0138844bca2c3803ace3c3dd"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/ColorEditor.kt",
+      "sha256": "42022aac41e34543c4ea98f15d4eaf730feb481e80dcdfd22f40bd5a19258281"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/DataBackupStore.kt",
+      "sha256": "ccfc06dfad89ee96a5c323c733b733d16543c84cd4eda8359bb47ae823446c5d"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/DataManagementScreen.kt",
+      "sha256": "05cb7642a557a9c0d4fc0c8ccf26829159075a97fa741df5b0814feece521f04"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/DeviceMarketNames.kt",
+      "sha256": "03f5831cc5134a91920250f53ac603511b5c17258c1661d6da889c4f1d70491a"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/FillingHelpScreen.kt",
+      "sha256": "20dfabeb2279b61d293b7deae9c3add07e37d2e7eb94a80925a3a9b7f2e4f87a"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/ForegroundColors.kt",
+      "sha256": "d17da756522ec26502699a878e27d442a69336ec754b1da9152b177a88edb257"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/FramePhraseControls.kt",
+      "sha256": "bb36bb4b957bf19464d240401e0a578b03d01d70d765ac2caf7a58edf8ababef"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/FrameRecipeStore.kt",
+      "sha256": "aa7a4747017f175778877c85dad7c0b52da9a2dbfea3ac1ad45b5f50dda03141"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/FrameRenderer.kt",
+      "sha256": "faed6e3266ddc89916aad2c58d9b9306dec11d7ffa5db3f866ca80879f2cc125"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/FrameSaveRequest.kt",
+      "sha256": "959eedbdc74b46ffe8f6e6b1578ce70acb79c510f8c24effc0397747b7e16855"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/LocalPhotoCatalog.kt",
+      "sha256": "1cdf0a65a9e3f947215702a54ba6c5bcc1e5a089d54874e6ba7fd415e37ca84e"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/LocalPhotoPicker.kt",
+      "sha256": "32e002f53e1a8849af8e5769014e3ac3124d3a882b5d68ec01897e82e40aa0f4"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/MainActivity.kt",
+      "sha256": "ea509a6cc0efbfb2773d80d13f2c662a49456e1b6fb1e15ed69e33c857377f47"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/MaterialLibraryScreen.kt",
+      "sha256": "e039672952cbc7331f54ac58761b7bcbe443546c3a5a50b6b0c27d4872cc5d75"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/PhotoColorAnalyzer.kt",
+      "sha256": "07b49dfad09a0faa09f886204f41ba17c7acb62efcc68aeb62ee8129f1c18386"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/PhotoLoader.kt",
+      "sha256": "77eda0065b411bdf82cb4d508b6b4c51292a3892b431180b571b6eec695a5b64"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/PhotoMarketName.kt",
+      "sha256": "083c1debeb2dca4bc4546990b5bf723c2fdf021b140b62506fbbe14d54b5b4f1"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/PhotoMetadata.kt",
+      "sha256": "507dbf70c0eb5b1413e809ad2517f3208ec729d44a1db01de8fd456a06d0bdc4"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/TextRules.kt",
+      "sha256": "05d5985fb9206112deb12d8305155050fd0eeb14de3a10d39a66be51147df050"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/TextSignatureScreen.kt",
+      "sha256": "b9e85eb846adf8efa976c4b360cc2f0398c973b9933ad08a2f9b2a3948c32214"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/UserFontStore.kt",
+      "sha256": "dbc85e84b10e9887ce000478bde8a57b03b4945ee35ed6319431afe7d864c814"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/UserMaterialLibraryScreen.kt",
+      "sha256": "57072a48a4edb52bf27f1e5eba4f81a29731322262a84a3dcd7c63c905f1bd78"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/UserMaterialStore.kt",
+      "sha256": "5e57d5e31aa3c6540cfad199b909a535da03f436b841e9fcf9e50bbc8b72f726"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/WatermarkStyle.kt",
+      "sha256": "761454661d4f7fd57800bda26b66d49f01ca6b1af32ea15e6144cfd229189d09"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/help_landscape.jpg",
+      "sha256": "0fdbaf5da5ed497bdafcbec1b93a6304c1233ae423354d0c4c1629f091448519"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_launcher.xml",
+      "sha256": "5699df5408fd869d9a3888e28f7ef74a2b6d9dbb7920e1da15c8b13fb07486d4"
+    },
+    {
+      "path": "android/app/src/main/res/raw/device_market_names.tsv",
+      "sha256": "b75a45c4cb6ae4a09c51739832e5b3850a18a223fe8f7568304dcbbc86c7001e"
+    },
+    {
+      "path": "android/app/src/main/res/values/styles.xml",
+      "sha256": "f5d28b8792045750ce5f4899a82b15b9eaf13c66252b169b801af5576ecbcdfa"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/ArtRecipeStoreTest.kt",
+      "sha256": "a84976a46cd5d5954ef876d4c9cbca9cf55fd3d9e821c3279e8600dd12d14c79"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/ArtRecipeWorkflowTest.kt",
+      "sha256": "f183f9e2ebcad5eb2c956cc0886c948ae1fa1a4d38d11929d267210a52478894"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/ArtSignatureIndependenceTest.kt",
+      "sha256": "af12dc4d364a91b489b11f17d3606d31f3cb4ce9d3897238aca59c23e5efd908"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/ArtSizeTest.kt",
+      "sha256": "89dd11cb0f8f5d2c27f65287020bd211244f354051a4a4fb6980c2ce6f08ca75"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/BatchSaverTest.kt",
+      "sha256": "6dd40d5aae007717e6e567caae7ddb427012efbb427d2b2d990d59e509ae0d58"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/BlurForegroundUniformityTest.kt",
+      "sha256": "d7dd2490f5c3018533a2fa90c0e447828fb0504f90179ce2384f94684edd9abe"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/BlurReadabilityTest.kt",
+      "sha256": "add2ed7cc55f76e3f278cf9c9ce3ade04aadc0b2d05210c4d753a2d5d2ea302a"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/BorderBackgroundTest.kt",
+      "sha256": "252482e4fdb606de1f8f45e300f39b4c86a667cd5f87268aa8cf6aba11373743"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/DataBackupTest.kt",
+      "sha256": "e7a86ee2e348779b5940b05a8b2e3c7c82eb8d66e792ea410fb22fe4587fc595"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/DeviceMarketNamesTest.kt",
+      "sha256": "b554ba39fad3df2dd189be57da6fce57ff0e9f6465306370f3ae3493cafa8c25"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/EditorExperienceTest.kt",
+      "sha256": "f95fb6dfa4077d679501c88c188e40b65bbaca6165f7c8b3fa740cee849241cb"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/FillingHelpWorkflowTest.kt",
+      "sha256": "42950712e57d6be1472c826483b7a2d72cd2b6636fd8f9ab4c98eee4430b9bef"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/ForegroundColorsTest.kt",
+      "sha256": "167903da1d78e5c55c4a21447ef6147069d69f071210449ddaabbeafdf818c1a"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/FrameBackgroundSampleTest.kt",
+      "sha256": "9944be94a6fad2a1592d9406f02a9b6fcc7e8ca0501b066061d2cc79636841e1"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/FramePhraseTest.kt",
+      "sha256": "96d5a9fb622b9a6d3c28b84a273891aa8ed22e44148376f1857a9bf052ea63b9"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/FrameRecipeStoreTest.kt",
+      "sha256": "37dea32fb145fcbaacf59071c9123939fa8d424ed2050fdbb81329509d9d06b9"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/FrameRendererTest.kt",
+      "sha256": "f2ae0cf8fa8f3edf53577be718cfe8849a67fe4b87b9394b01d54db08f84c767"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/FrameSaveRequestTest.kt",
+      "sha256": "df05c1dff5266efde2a859e709539fb3e4495c93241ebacc4bd7931bfc456613"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/HistoricalCalibrationStyle.kt",
+      "sha256": "510b44843d797d462bc3e4d12737b173286c02aeba640f6c8453454430ffdaf7"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/LocalPhotoCatalogTest.kt",
+      "sha256": "039f65711da1e65ae07028758cfe7fa91a4903e24b8c4803f87f0090290407a2"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/LocalPhotoPickerTest.kt",
+      "sha256": "8160cb5d28ed86e82cd4468b1ca70dced732e527bb17786eea7de28a9e6a0de3"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/MaterialWorkflowTest.kt",
+      "sha256": "2c4ff1cfc42228f59c9c07c75fcb8464d8e4f1c515c2ee5d725a10643f4d5acc"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/PhotoLoaderTest.kt",
+      "sha256": "a3b06872889c536e2d0c5a54d580a56174750355cd7a23101232b38854733857"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/PhotoMarketNameTest.kt",
+      "sha256": "ed6f8ccf23ad2c72feb2b02990a33e0afc0cebd005054891c24210365cefb624"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/PhotoStripTest.kt",
+      "sha256": "2442a1208d6bd3aa962deae45372a35e2da75a83d0fe5a6c18f8f10bc30069b8"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1CalibrationSampleTest.kt",
+      "sha256": "a78dc04eac93eaa805593b7ebaf22551c166ab8bb112bd28986c0a3e593ead97"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1ColorAndCacheTest.kt",
+      "sha256": "d891d41a945ce56b9f509b56bb107963c126d926bb50edc3e2ce662a46171f7c"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1FlowerTonePreviewTest.kt",
+      "sha256": "cd923674d15765d13787913f3db290107f16df56f5a7c171cb65aa88adfee398"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1FlowerToneStepsTest.kt",
+      "sha256": "8a708575e517f3fd6a04811108333d31be044bc3647b2084b6a360309f7136a7"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1GreenHuePreviewTest.kt",
+      "sha256": "b48daf38c8cfab579252a9db33636637c1379cf4820106d9f8dcbdb8ba91b046"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1ModeStabilityTest.kt",
+      "sha256": "c67b9d4574436399d0ba412db10da015d536a58bfe16f6292a9b5cc93e2cc8d1"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1OriginalPhotoTest.kt",
+      "sha256": "65cc0c45c935b497ec41506e244a7b58a326462e7c7b072aa4b41eafa16f5517"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R2VisualFeedbackTest.kt",
+      "sha256": "292eabbb88a0268797a674a8caa42d360e6e2cf3b079cef896e4225a61025683"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/SavingProgressDialogTest.kt",
+      "sha256": "01caa9ba631fed504263507f6e6fcc7b84228fd6435683a4bb98ae34f72742f4"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/TextRulesLimitTest.kt",
+      "sha256": "6c93c876c164002fffd3fcb33cbbc2d62b15c34785b5e542ffbe8ae6636cf9b1"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/UserFontStoreTest.kt",
+      "sha256": "591dd390fd79b12fa4ccc5b172006a33d275ea67770a95bc854df3e46c75cf74"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/UserMaterialStoreTest.kt",
+      "sha256": "af5341d303de4f8965cd31f7527c7a7140fc075cd09e308c12d5aa1e8cfde321"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/VivoForegroundTest.kt",
+      "sha256": "6b0354ab8b148554439beb686b9bac58511e6cf7924c875fa21c0abf769de651"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/WatermarkStyleIndependenceTest.kt",
+      "sha256": "fd71836180bebb2f00570c6e48130d7e98e413f3923ed5b74b9887f058e9bee0"
+    },
+    {
+      "path": "android/build.gradle.kts",
+      "sha256": "c6e823e62d3f7903e288d2d7f459f547cb41ec82b0d676d60592f58896f6bbd9"
+    },
+    {
+      "path": "android/gradle.properties",
+      "sha256": "94f617565dbc5f32a3946eb680963dd3f605e97e188cde9c1d01ee24c0694f53"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "497c8c2a7e5031f6aa847f88104aa80a93532ec32ee17bdb8d1d2f67a194a9c7"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "e74d4f107d2feab989b9a041a02e2d2b85567ff48415c9c7add5ecc19abd19f9"
+    },
+    {
+      "path": "android/gradlew",
+      "sha256": "a5a5c199ba02189ae8c46a334223371a20599d9c298ef65e7540ede4a3f72d59"
+    },
+    {
+      "path": "android/gradlew.bat",
+      "sha256": "d539676c48b596afda64c963ec8f7ee56c7b3fe7e3b81d1dbe2d1a1e3dd9e9f8"
+    },
+    {
+      "path": "android/settings.gradle.kts",
+      "sha256": "8a9d0c4588c267d201d11ebc3f3d3e456b6d9cc08589d6e000d2836b83039826"
+    }
+  ],
+  "publicFiles": [
+    {
+      "path": ".gitattributes",
+      "bytes": 105,
+      "sha256": "cb1f34672233cd2168a8af58b368022252e1e3edb33eea618eba799c16bf9db5"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 363,
+      "sha256": "53e627dba6a0d31736498ab3b3d4316fe015ba6a1d403ae6e64381792503a63d"
+    },
+    {
+      "path": "android/.gitignore",
+      "bytes": 59,
+      "sha256": "3d459d6190d77b4c8c2e4dcaa650556bc0259953eef3abb1dc3a669302888f49"
+    },
+    {
+      "path": "android/app/build.gradle.kts",
+      "bytes": 1622,
+      "sha256": "9d7f401adca775487f840d3b2bf01f9a52d90ad0c8f65da153f8c2ef3cf71739"
+    },
+    {
+      "path": "android/app/src/main/AndroidManifest.xml",
+      "bytes": 1132,
+      "sha256": "b3eada8d9bb61c464edb78def1524d95e94ee8873881a87fd98471aa409e4a27"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/ArtRecipeStore.kt",
+      "bytes": 4700,
+      "sha256": "3e94bf805e0fd3fb86b0dcd4986cb82999bedb2544f8bda846e7790dd8c2ca86"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/ArtSignatureRenderer.kt",
+      "bytes": 11101,
+      "sha256": "beebe7113c2c4bb199a3febe3aa63cedf4ae508ef93b9903ddb33c8865f4f741"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/ArtSignatureScreen.kt",
+      "bytes": 13927,
+      "sha256": "b58153f917071fc5e72f2d36c0a144b64976ba04638eab030dc77ad20e9234da"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/BatchSaver.kt",
+      "bytes": 3382,
+      "sha256": "c23fdb2ec9045d65ac5bc4bcfe0f9f318c34b23e6c87b8a5168a43f5accadbfa"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/BlurBackgroundRenderer.kt",
+      "bytes": 10027,
+      "sha256": "b11146bf4960275298f3c471711ac097ad4e44c9f8e8457bfd4c4d6a0bd66830"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/BlurForeground.kt",
+      "bytes": 4779,
+      "sha256": "b11ed565b4f44da14848953c7cba6635465dd3cd49a904f9f6e51cf87410b821"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/BorderBackgroundStyle.kt",
+      "bytes": 14805,
+      "sha256": "71811f694994edc37d4e039acac771975a20d492a0ce18ba6cd6ba9753c1f3be"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/BorderColor.kt",
+      "bytes": 6193,
+      "sha256": "f36d532cf001c6f941ac6b6bcb89e1d0546005ab0138844bca2c3803ace3c3dd"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/ColorEditor.kt",
+      "bytes": 8918,
+      "sha256": "42022aac41e34543c4ea98f15d4eaf730feb481e80dcdfd22f40bd5a19258281"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/DataBackupStore.kt",
+      "bytes": 23506,
+      "sha256": "ccfc06dfad89ee96a5c323c733b733d16543c84cd4eda8359bb47ae823446c5d"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/DataManagementScreen.kt",
+      "bytes": 10346,
+      "sha256": "05cb7642a557a9c0d4fc0c8ccf26829159075a97fa741df5b0814feece521f04"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/DeviceMarketNames.kt",
+      "bytes": 1836,
+      "sha256": "03f5831cc5134a91920250f53ac603511b5c17258c1661d6da889c4f1d70491a"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/FillingHelpScreen.kt",
+      "bytes": 8375,
+      "sha256": "20dfabeb2279b61d293b7deae9c3add07e37d2e7eb94a80925a3a9b7f2e4f87a"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/ForegroundColors.kt",
+      "bytes": 1704,
+      "sha256": "d17da756522ec26502699a878e27d442a69336ec754b1da9152b177a88edb257"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/FramePhraseControls.kt",
+      "bytes": 3441,
+      "sha256": "bb36bb4b957bf19464d240401e0a578b03d01d70d765ac2caf7a58edf8ababef"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/FrameRecipeStore.kt",
+      "bytes": 4981,
+      "sha256": "aa7a4747017f175778877c85dad7c0b52da9a2dbfea3ac1ad45b5f50dda03141"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/FrameRenderer.kt",
+      "bytes": 15661,
+      "sha256": "faed6e3266ddc89916aad2c58d9b9306dec11d7ffa5db3f866ca80879f2cc125"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/FrameSaveRequest.kt",
+      "bytes": 1490,
+      "sha256": "959eedbdc74b46ffe8f6e6b1578ce70acb79c510f8c24effc0397747b7e16855"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/LocalPhotoCatalog.kt",
+      "bytes": 6614,
+      "sha256": "1cdf0a65a9e3f947215702a54ba6c5bcc1e5a089d54874e6ba7fd415e37ca84e"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/LocalPhotoPicker.kt",
+      "bytes": 14361,
+      "sha256": "32e002f53e1a8849af8e5769014e3ac3124d3a882b5d68ec01897e82e40aa0f4"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/MainActivity.kt",
+      "bytes": 94153,
+      "sha256": "3c0800d3c18d43ee41c8eb2cfe8ccc1a36348de165e1cc5bec04d32b4e1d20e9"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/MaterialLibraryScreen.kt",
+      "bytes": 26368,
+      "sha256": "e039672952cbc7331f54ac58761b7bcbe443546c3a5a50b6b0c27d4872cc5d75"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/PhotoColorAnalyzer.kt",
+      "bytes": 16791,
+      "sha256": "07b49dfad09a0faa09f886204f41ba17c7acb62efcc68aeb62ee8129f1c18386"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/PhotoLoader.kt",
+      "bytes": 8594,
+      "sha256": "77eda0065b411bdf82cb4d508b6b4c51292a3892b431180b571b6eec695a5b64"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/PhotoMarketName.kt",
+      "bytes": 4371,
+      "sha256": "083c1debeb2dca4bc4546990b5bf723c2fdf021b140b62506fbbe14d54b5b4f1"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/PhotoMetadata.kt",
+      "bytes": 3540,
+      "sha256": "507dbf70c0eb5b1413e809ad2517f3208ec729d44a1db01de8fd456a06d0bdc4"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/TextRules.kt",
+      "bytes": 1593,
+      "sha256": "05d5985fb9206112deb12d8305155050fd0eeb14de3a10d39a66be51147df050"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/TextSignatureScreen.kt",
+      "bytes": 9848,
+      "sha256": "b9e85eb846adf8efa976c4b360cc2f0398c973b9933ad08a2f9b2a3948c32214"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/UserFontStore.kt",
+      "bytes": 7520,
+      "sha256": "dbc85e84b10e9887ce000478bde8a57b03b4945ee35ed6319431afe7d864c814"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/UserMaterialLibraryScreen.kt",
+      "bytes": 8937,
+      "sha256": "57072a48a4edb52bf27f1e5eba4f81a29731322262a84a3dcd7c63c905f1bd78"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/UserMaterialStore.kt",
+      "bytes": 16890,
+      "sha256": "99dd981702d607040111692f97f1b6b4798fab89de55b34221767117f9a45731"
+    },
+    {
+      "path": "android/app/src/main/java/com/sinkabyss/framewatermark/WatermarkStyle.kt",
+      "bytes": 2328,
+      "sha256": "761454661d4f7fd57800bda26b66d49f01ca6b1af32ea15e6144cfd229189d09"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/circle_a.png",
+      "bytes": 6632,
+      "sha256": "04876d5ae2bf00fce77e899a4598b0d448ae2a086d66e8e9965f8219bba47536"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/circle_b.png",
+      "bytes": 5061,
+      "sha256": "cac07bf9683b7091346a1fb0e5cb2ea70e6b6458e98af9f6744ff856f4092681"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/circle_c.png",
+      "bytes": 5977,
+      "sha256": "3e681561c4175485f26dad746b162c02e8ef9377b9ea625a565cc03b7fb081dd"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/help_landscape.jpg",
+      "bytes": 64965,
+      "sha256": "0fdbaf5da5ed497bdafcbec1b93a6304c1233ae423354d0c4c1629f091448519"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/landscape_demo.jpg",
+      "bytes": 64965,
+      "sha256": "0fdbaf5da5ed497bdafcbec1b93a6304c1233ae423354d0c4c1629f091448519"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/sig_a.png",
+      "bytes": 2978,
+      "sha256": "6e99f2c935ce95e8bf1219345b4c49f3f95b82fa4472ec64d6d9aaada30ba80b"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/sig_b.png",
+      "bytes": 3330,
+      "sha256": "cf49ae9ab5be09acb7829c0e114f151b4dfa0be4d68a4dd1971b0765b3fcc943"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/sig_c.png",
+      "bytes": 3277,
+      "sha256": "6feeea27a373cd3ca213f938923e98358fddad38013722d5149e7b32d707dafe"
+    },
+    {
+      "path": "android/app/src/main/res/drawable-nodpi/sig_d.png",
+      "bytes": 1474,
+      "sha256": "0045cf38b87b6bd50fdec65638b25c14a9275723c7d1b14dac0d1a1ed4e2ba75"
+    },
+    {
+      "path": "android/app/src/main/res/drawable/ic_launcher.xml",
+      "bytes": 497,
+      "sha256": "5699df5408fd869d9a3888e28f7ef74a2b6d9dbb7920e1da15c8b13fb07486d4"
+    },
+    {
+      "path": "android/app/src/main/res/raw/device_market_names.tsv",
+      "bytes": 522582,
+      "sha256": "aab20993a7fcd033878068141a92fe7df919222c054b8e440044612c1207f3c5"
+    },
+    {
+      "path": "android/app/src/main/res/values/styles.xml",
+      "bytes": 547,
+      "sha256": "f5d28b8792045750ce5f4899a82b15b9eaf13c66252b169b801af5576ecbcdfa"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/ArtRecipeStoreTest.kt",
+      "bytes": 5520,
+      "sha256": "a84976a46cd5d5954ef876d4c9cbca9cf55fd3d9e821c3279e8600dd12d14c79"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/ArtRecipeWorkflowTest.kt",
+      "bytes": 6612,
+      "sha256": "f183f9e2ebcad5eb2c956cc0886c948ae1fa1a4d38d11929d267210a52478894"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/ArtSignatureIndependenceTest.kt",
+      "bytes": 4709,
+      "sha256": "af12dc4d364a91b489b11f17d3606d31f3cb4ce9d3897238aca59c23e5efd908"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/ArtSizeTest.kt",
+      "bytes": 3097,
+      "sha256": "89dd11cb0f8f5d2c27f65287020bd211244f354051a4a4fb6980c2ce6f08ca75"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/BatchSaverTest.kt",
+      "bytes": 6315,
+      "sha256": "6dd40d5aae007717e6e567caae7ddb427012efbb427d2b2d990d59e509ae0d58"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/BlurForegroundUniformityTest.kt",
+      "bytes": 3751,
+      "sha256": "d7dd2490f5c3018533a2fa90c0e447828fb0504f90179ce2384f94684edd9abe"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/BlurReadabilityTest.kt",
+      "bytes": 6275,
+      "sha256": "add2ed7cc55f76e3f278cf9c9ce3ade04aadc0b2d05210c4d753a2d5d2ea302a"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/BorderBackgroundTest.kt",
+      "bytes": 30474,
+      "sha256": "252482e4fdb606de1f8f45e300f39b4c86a667cd5f87268aa8cf6aba11373743"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/DataBackupTest.kt",
+      "bytes": 11459,
+      "sha256": "e7a86ee2e348779b5940b05a8b2e3c7c82eb8d66e792ea410fb22fe4587fc595"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/DeviceMarketNamesTest.kt",
+      "bytes": 2407,
+      "sha256": "b554ba39fad3df2dd189be57da6fce57ff0e9f6465306370f3ae3493cafa8c25"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/EditorExperienceTest.kt",
+      "bytes": 13685,
+      "sha256": "1a9f820b1f30ce858b919cbf1a03109fc7c533c8a667fd12eff534d816694888"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/FillingHelpWorkflowTest.kt",
+      "bytes": 15732,
+      "sha256": "6016a4ee19775c136a464d33360aaa862e55c99a5cc0ef6a534d91ce46621cfc"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/ForegroundColorsTest.kt",
+      "bytes": 10792,
+      "sha256": "167903da1d78e5c55c4a21447ef6147069d69f071210449ddaabbeafdf818c1a"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/FrameBackgroundSampleTest.kt",
+      "bytes": 16609,
+      "sha256": "9944be94a6fad2a1592d9406f02a9b6fcc7e8ca0501b066061d2cc79636841e1"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/FramePhraseTest.kt",
+      "bytes": 7380,
+      "sha256": "96d5a9fb622b9a6d3c28b84a273891aa8ed22e44148376f1857a9bf052ea63b9"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/FrameRecipeStoreTest.kt",
+      "bytes": 4215,
+      "sha256": "37dea32fb145fcbaacf59071c9123939fa8d424ed2050fdbb81329509d9d06b9"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/FrameRendererTest.kt",
+      "bytes": 12794,
+      "sha256": "f2ae0cf8fa8f3edf53577be718cfe8849a67fe4b87b9394b01d54db08f84c767"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/FrameSaveRequestTest.kt",
+      "bytes": 7134,
+      "sha256": "df05c1dff5266efde2a859e709539fb3e4495c93241ebacc4bd7931bfc456613"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/HistoricalCalibrationStyle.kt",
+      "bytes": 1345,
+      "sha256": "510b44843d797d462bc3e4d12737b173286c02aeba640f6c8453454430ffdaf7"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/LocalPhotoCatalogTest.kt",
+      "bytes": 3286,
+      "sha256": "039f65711da1e65ae07028758cfe7fa91a4903e24b8c4803f87f0090290407a2"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/LocalPhotoPickerTest.kt",
+      "bytes": 7305,
+      "sha256": "8160cb5d28ed86e82cd4468b1ca70dced732e527bb17786eea7de28a9e6a0de3"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/MaterialWorkflowTest.kt",
+      "bytes": 5376,
+      "sha256": "2c4ff1cfc42228f59c9c07c75fcb8464d8e4f1c515c2ee5d725a10643f4d5acc"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/PhotoLoaderTest.kt",
+      "bytes": 3552,
+      "sha256": "a3b06872889c536e2d0c5a54d580a56174750355cd7a23101232b38854733857"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/PhotoMarketNameTest.kt",
+      "bytes": 6129,
+      "sha256": "ed6f8ccf23ad2c72feb2b02990a33e0afc0cebd005054891c24210365cefb624"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/PhotoStripTest.kt",
+      "bytes": 4557,
+      "sha256": "2442a1208d6bd3aa962deae45372a35e2da75a83d0fe5a6c18f8f10bc30069b8"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1CalibrationSampleTest.kt",
+      "bytes": 6143,
+      "sha256": "a78dc04eac93eaa805593b7ebaf22551c166ab8bb112bd28986c0a3e593ead97"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1ColorAndCacheTest.kt",
+      "bytes": 2403,
+      "sha256": "d891d41a945ce56b9f509b56bb107963c126d926bb50edc3e2ce662a46171f7c"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1FlowerTonePreviewTest.kt",
+      "bytes": 5028,
+      "sha256": "cd923674d15765d13787913f3db290107f16df56f5a7c171cb65aa88adfee398"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1FlowerToneStepsTest.kt",
+      "bytes": 7310,
+      "sha256": "8a708575e517f3fd6a04811108333d31be044bc3647b2084b6a360309f7136a7"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1GreenHuePreviewTest.kt",
+      "bytes": 5459,
+      "sha256": "b48daf38c8cfab579252a9db33636637c1379cf4820106d9f8dcbdb8ba91b046"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1ModeStabilityTest.kt",
+      "bytes": 8335,
+      "sha256": "c67b9d4574436399d0ba412db10da015d536a58bfe16f6292a9b5cc93e2cc8d1"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R1OriginalPhotoTest.kt",
+      "bytes": 5850,
+      "sha256": "65cc0c45c935b497ec41506e244a7b58a326462e7c7b072aa4b41eafa16f5517"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/R2VisualFeedbackTest.kt",
+      "bytes": 4190,
+      "sha256": "292eabbb88a0268797a674a8caa42d360e6e2cf3b079cef896e4225a61025683"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/SavingProgressDialogTest.kt",
+      "bytes": 3087,
+      "sha256": "01caa9ba631fed504263507f6e6fcc7b84228fd6435683a4bb98ae34f72742f4"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/TextRulesLimitTest.kt",
+      "bytes": 2294,
+      "sha256": "6c93c876c164002fffd3fcb33cbbc2d62b15c34785b5e542ffbe8ae6636cf9b1"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/UserFontStoreTest.kt",
+      "bytes": 8604,
+      "sha256": "591dd390fd79b12fa4ccc5b172006a33d275ea67770a95bc854df3e46c75cf74"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/UserMaterialStoreTest.kt",
+      "bytes": 6133,
+      "sha256": "af5341d303de4f8965cd31f7527c7a7140fc075cd09e308c12d5aa1e8cfde321"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/VivoForegroundTest.kt",
+      "bytes": 3642,
+      "sha256": "6b0354ab8b148554439beb686b9bac58511e6cf7924c875fa21c0abf769de651"
+    },
+    {
+      "path": "android/app/src/test/java/com/sinkabyss/framewatermark/WatermarkStyleIndependenceTest.kt",
+      "bytes": 6669,
+      "sha256": "fd71836180bebb2f00570c6e48130d7e98e413f3923ed5b74b9887f058e9bee0"
+    },
+    {
+      "path": "android/build.gradle.kts",
+      "bytes": 149,
+      "sha256": "c6e823e62d3f7903e288d2d7f459f547cb41ec82b0d676d60592f58896f6bbd9"
+    },
+    {
+      "path": "android/gradle.properties",
+      "bytes": 149,
+      "sha256": "94f617565dbc5f32a3946eb680963dd3f605e97e188cde9c1d01ee24c0694f53"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 48462,
+      "sha256": "497c8c2a7e5031f6aa847f88104aa80a93532ec32ee17bdb8d1d2f67a194a9c7"
+    },
+    {
+      "path": "android/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 281,
+      "sha256": "e74d4f107d2feab989b9a041a02e2d2b85567ff48415c9c7add5ecc19abd19f9"
+    },
+    {
+      "path": "android/gradlew",
+      "bytes": 8656,
+      "sha256": "a5a5c199ba02189ae8c46a334223371a20599d9c298ef65e7540ede4a3f72d59"
+    },
+    {
+      "path": "android/gradlew.bat",
+      "bytes": 2848,
+      "sha256": "d539676c48b596afda64c963ec8f7ee56c7b3fe7e3b81d1dbe2d1a1e3dd9e9f8"
+    },
+    {
+      "path": "android/README.md",
+      "bytes": 508,
+      "sha256": "3506828ea5cf8d27fe8034c9c00b632985906291f2a6896775de5b44cb47c94b"
+    },
+    {
+      "path": "android/settings.gradle.kts",
+      "bytes": 334,
+      "sha256": "8a9d0c4588c267d201d11ebc3f3d3e456b6d9cc08589d6e000d2836b83039826"
+    },
+    {
+      "path": "docs/validation.md",
+      "bytes": 1576,
+      "sha256": "77a8eec61ab0a5151028d74aaa2e13c2dcb1b71d22266547322fb3ef66626c05"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "a2c2d8b1743690d72b66679d83da326cedb5e30763bc815ab316b719f84489d5"
+    },
+    {
+      "path": "licenses/gradle-LICENSE.txt",
+      "bytes": 15931,
+      "sha256": "bb36a3818cbf1f90a76585ab9e9661cccde459c97458c4bfd0939e4502353fd0"
+    },
+    {
+      "path": "licenses/gradle-NOTICE.txt",
+      "bytes": 868,
+      "sha256": "c2de5fd9adc7ccc4e1382a0e1f38ec6e14f8ca6e28d3c20289fe80353b019aa1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3576,
+      "sha256": "dfd4055070a54e51936a611b7ad3eff22b0962cc5383ed5d9f3e8f93115c7c4a"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3065,
+      "sha256": "59772d83b392fd0fbc84a55f6cd70e6ddec0dccdd8a8061fe4bf657367690400"
+    },
+    {
+      "path": "tools/check-docs.ps1",
+      "bytes": 2563,
+      "sha256": "f6568cc18472c3e53573d4e89a51ed61b013aeb5607d94c905d43cafbfeea552"
+    },
+    {
+      "path": "tools/generate-open-source-assets.ps1",
+      "bytes": 3161,
+      "sha256": "4105e67c34e278720726b797b143c4d4ec82b48ea610596190566686488c0e25"
+    }
+  ]
+}
